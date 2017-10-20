@@ -5,7 +5,7 @@ publishing {
         maven(MavenPublication) {
 
             groupId = POM_GROUP
-            artifactId = project.getName()
+            artifactId = POM_ARTIFACT_ID
             version = VERSION_NAME
 
             artifact(sourcesJar)
